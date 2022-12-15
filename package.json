@@ -1,0 +1,28 @@
+{
+  "name": "basto",
+  "version": "1.0.0",
+  "description": "BASTO CRUD",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node ./node_modules/mocha/bin/mocha ./tests/*.test.js --reporter spec",
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
+    "mongoose": "^6.6.5",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "dotenv": "^16.0.3",
+    "mocha": "^10.1.0",
+    "nodemon": "^2.0.16",
+    "supertest": "^6.3.1"
+  }
+}
